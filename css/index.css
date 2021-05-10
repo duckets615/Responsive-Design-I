@@ -129,4 +129,28 @@ hr {
     border-top: 2pt solid black;
     margin-top: 7.5rem;
 }
+
+.features-about {
+    display: flex;
+    margin: 3.5rem 5rem;
+}
+
+.features-about h2 {
+    font-size: 2rem;
+    margin: -0.5rem 0rem 0rem 1.5rem;    
+}
+
+.features-about p {
+    font-family: 'Exo 2', sans-serif;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.middle-image {
+    margin: auto;
+    border: 2pt solid red;
+    margin: -2.5rem 0rem 0rem 5rem;
+    padding: 2rem;
+}
 /* margin: 0rem 0rem 0rem 0rem; */
+/* padding: 0rem 0rem 0rem 0rem; */
