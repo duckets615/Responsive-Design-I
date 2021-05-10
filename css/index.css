@@ -124,4 +124,9 @@ button {
     margin: 0rem 0rem 0rem 4rem;
 }
 
+hr {
+    width: 85%;
+    border-top: 2pt solid black;
+    margin-top: 7.5rem;
+}
 /* margin: 0rem 0rem 0rem 0rem; */
