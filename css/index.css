@@ -52,7 +52,6 @@ html {
     font-family: badaboom bb, sans-serif;
 }
 .container {
-    border: 1pt solid purple;
     width: 1000px;
     margin: 0 auto;
     font-size: 1.5rem;
@@ -65,16 +64,11 @@ nav {
 }
 
 nav .navigation {
-    border: 1pt solid purple;
     width: 75%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0rem 0rem 0rem 0rem;
-}
-
-nav .navigation li {
-    
 }
 
 nav .navigation li a {
@@ -85,7 +79,6 @@ nav .navigation li a {
 }
 
 nav img {
-    border: 1pt solid purple;
     margin: 0rem 5rem;
 }
 
@@ -107,6 +100,7 @@ nav img {
     margin: 4rem 0rem 0rem 0rem;
     padding: 3rem;
 }
+
 button {
     width: 17rem;
     height: 3.5rem;
@@ -114,12 +108,15 @@ button {
     background: transparent;
     margin: 0rem 9.5rem 0rem 0rem;
 }
+
 .pic {
     margin: 7rem 3rem 0rem 0rem;
 }
+
 .on {
     margin: 0rem 0rem 0rem 9rem;
 }
+
 .demand {
     margin: 0rem 0rem 0rem 4rem;
 }
@@ -136,21 +133,69 @@ hr {
 }
 
 .features-about h2 {
-    font-size: 2rem;
-    margin: -0.5rem 0rem 0rem 1.5rem;    
+    margin: -1.5rem 0rem 0rem 1.5rem;    
 }
 
 .features-about p {
     font-family: 'Exo 2', sans-serif;
     padding: 1rem;
     font-size: 1.6rem;
+    line-height: 1.2;
 }
 
 .middle-image {
     margin: auto;
-    border: 2pt solid red;
     margin: -2.5rem 0rem 0rem 5rem;
     padding: 2rem;
+}
+
+.services-product-vision {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0 7rem;
+    line-height: 1.2;
+    font-size: 1.6rem;
+}
+
+.services-product-vision h2 {
+    font-size: 1.5rem;
+    font-family: badaboom bb, sans-serif;
+    margin: 1.3rem 0rem 0rem 0.4rem;
+}
+
+.services-product-vision p {
+    margin: 1.5rem 0rem 0rem 0.5rem;
+}
+.second-break {
+    width: 87%;
+    border-top: 2pt solid black;
+    margin: 3rem 0rem 0rem 7rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem 0rem 7rem;
+    font-size: 1.8rem;
+    font-family: Exo2;
+}
+
+.contact h2 {
+    font-family: badaboom bb, sans-serif;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.copyright {
+    text-align: center;
+    font-family: Exo2;
+    margin-top: 1rem;
 }
 /* margin: 0rem 0rem 0rem 0rem; */
 /* padding: 0rem 0rem 0rem 0rem; */
