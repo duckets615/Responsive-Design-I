@@ -211,14 +211,45 @@ html {
 }
 
 .container {
-    width: 1000px;
+    width: 90%;
     border: 1pt solid purple;
     margin: 0 auto;
     font-size: 1.5rem;
+    box-sizing: border-box;
 }
 
 nav {
     display: flex;
-    align-items: center;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin: 1% auto;
 }
+
+nav .navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .navigation li {
+    margin: 10%;
+}
+nav .navigation li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+
+
+nav img {
+    border: 1pt solid purple;
+    width: 12%;
+    height: 11%;
+}
+
+/* .middle-image img {
+    border: 2pt solid blue;
+    width: 100%;
+} */
+
