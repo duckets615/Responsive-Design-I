@@ -1,0 +1,39 @@
+/* @media (max-width: 800px) {
+    .container {
+        border: 1pt solid purple;
+    }
+
+    nav{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    nav img {
+        width: 18rem;
+        height: 4rem;
+    }
+
+    nav .navigation {
+        display:flex;
+        flex-direction: column;
+    }
+
+    nav .navigation li {
+        width: 68%;
+        border-top: 1pt solid black;
+        text-align: center;
+        margin: 1.8rem 0rem 0rem 0rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav .navigation li a{
+        font-size: 2rem;
+    }
+
+    .pic {
+        display: none;
+    }
+} */

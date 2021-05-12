@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    /* overflow-x: hidden; */
 }
 ol, ul {
     list-style: none;
@@ -46,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 /* ----------------RESET-------------- */
-
+/* 
 html {
     font-size: 62.5%;
     font-family: badaboom bb, sans-serif;
@@ -79,6 +80,7 @@ nav .navigation li a {
 }
 
 nav img {
+    max-width: 100%;
     margin: 0rem 5rem;
 }
 
@@ -110,6 +112,7 @@ button {
 }
 
 .pic {
+    max-width: 100%;
     margin: 7rem 3rem 0rem 0rem;
 }
 
@@ -144,7 +147,7 @@ hr {
 }
 
 .middle-image {
-    margin: auto;
+    max-width: 0%;
     margin: -2.5rem 0rem 0rem 5rem;
     padding: 2rem;
 }
@@ -196,6 +199,26 @@ hr {
     text-align: center;
     font-family: Exo2;
     margin-top: 1rem;
-}
+} */
+
+/* ----------------------------------------------- */
 /* margin: 0rem 0rem 0rem 0rem; */
 /* padding: 0rem 0rem 0rem 0rem; */
+
+html {
+    font-size: 62.5%;
+    font-family: badaboom bb, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    border: 1pt solid purple;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
